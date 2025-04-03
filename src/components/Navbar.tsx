@@ -1,20 +1,25 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Dumbbell } from 'lucide-react';
 
 export function Navbar() {
   return (
-    <nav className="relative z-10 flex justify-between items-center px-6 py-4 bg-gray-900">
-      <Link to="/" className="flex items-center">
-        <Dumbbell className="h-8 w-8 text-white" />
-        <span className="ml-2 text-2xl font-bold text-white">EliteFit</span>
-      </Link>
-      <div className="hidden md:flex space-x-8 text-white">
-        <Link to="/" className="hover:text-gray-300">Home</Link>
-        <Link to="/about" className="hover:text-gray-300">About</Link>
-        <Link to="/shop" className="hover:text-gray-300">Shop</Link>
-        <Link to="/contact" className="hover:text-gray-300">Contact</Link>
-      </div>
-    </nav>
+    <div className="fixed w-full top-4 z-50 px-4">
+      <nav className="max-w-6xl mx-auto bg-gradient-to-r from-primary-200 via-primary-300 to-primary-200 rounded-full shadow-lg flex justify-between items-center px-8 py-4">
+        <Link to="/" className="flex items-center">
+          <img 
+            src="https://i.imgur.com/Fqh31Xe.png" 
+            alt="Train with Zoe Logo"
+            className="h-8 w-8"
+          />
+          <span className="ml-2 text-2xl font-bold text-primary-900">Train with Zoe</span>
+        </Link>
+        <div className="hidden md:flex space-x-8">
+          <Link to="/" className="text-primary-900 hover:text-primary-700 font-medium transition duration-300">Home</Link>
+          <Link to="/about" className="text-primary-900 hover:text-primary-700 font-medium transition duration-300">About</Link>
+          <Link to="/shop" className="text-primary-900 hover:text-primary-700 font-medium transition duration-300">Services</Link>
+          <Link to="/contact" className="text-primary-900 hover:text-primary-700 font-medium transition duration-300">Contact</Link>
+        </div>
+      </nav>
+    </div>
   );
 }
