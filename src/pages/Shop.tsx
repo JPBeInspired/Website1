@@ -8,7 +8,7 @@ const products = [
     price: 299.99,
     image: "https://i.imgur.com/tfUwXFV.png",
     description: "8 personalised Online Coaching sessions with nutrition guidance",
-    purchaseLink: "https://buy.stripe.com/premium-coaching"
+    purchaseLink: "https://buy.stripe.com/6oEeW44qg28zfQsfYZ"
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const products = [
     price: 49.99,
     image: "https://i.imgur.com/t5XVkCw.png",
     description: "8 week personalised training program package with nutrition guidance",
-    purchaseLink: "https://buy.stripe.com/personalised-program",
+    purchaseLink: "https://buy.stripe.com/6oEeW44qg28zfQsfYZ",
     popular: true,
     features: [
       "Personalised 8-week program",
@@ -31,7 +31,7 @@ const products = [
     price: 149.99,
     image: "https://i.imgur.com/DhQYpIV.png",
     description: "1-hour consultation with a personalised 4 week program and meal-prep guidance",
-    purchaseLink: "https://buy.stripe.com/coaching-package"
+    purchaseLink: "https://buy.stripe.com/6oEeW44qg28zfQsfYZ"
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const products = [
     price: 39.99,
     image: "https://i.imgur.com/0gCY9jB.png",
     description: "4 week personalised training program",
-    purchaseLink: "https://buy.stripe.com/4-week-program"
+    purchaseLink: "https://buy.stripe.com/6oEeW44qg28zfQsfYZ"
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ const products = [
     price: 99.99,
     image: "https://i.imgur.com/CEFt6hh.png",
     description: "1:1 online consultation",
-    purchaseLink: "https://buy.stripe.com/consultation"
+    purchaseLink: "https://buy.stripe.com/6oEeW44qg28zfQsfYZ"
   },
   {
     id: 6,
@@ -55,7 +55,7 @@ const products = [
     price: 29.99,
     image: "https://i.imgur.com/X4Tm6d9.png",
     description: "15min online meal plan guidance",
-    purchaseLink: "https://buy.stripe.com/meal-plan"
+    purchaseLink: "https://buy.stripe.com/6oEeW44qg28zfQsfYZ"
   }
 ];
 
